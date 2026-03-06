@@ -1,0 +1,21 @@
+package:
+  name: currency
+  dependencies:
+    - prelude
+    - js-bigints
+    - arrays
+    - maybe
+    - integers
+    - foldable-traversable
+    - strings
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - spec
+      - effect
+      - aff
+workspace:
+  packageSet:
+    registry: 73.3.0
+  extraPackages: {}
